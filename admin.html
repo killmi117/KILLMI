@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comprobar Conexión a la Base de Datos</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Agrega jQuery -->
+</head>
+<body>
+    <h1>Comprobar Conexión a la Base de Datos</h1>
+
+    <div id="resultado">
+        <!-- El resultado se mostrará aquí -->
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: 'conexion.php', // Nombre del archivo PHP para comprobar la conexión
+                type: 'GET',
+                success: function(response) {
+                    $('#resultado').html(response);
+                },
+                error: function() {
+                    $('#resultado').html('Error al comprobar la conexión.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
