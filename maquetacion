@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor de TI</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Consultor de Tecnología de la Información</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios de consultoría de TI, incluyendo:</p>
+        <ul>
+            <li>Consultoría en seguridad cibernética</li>
+            <li>Optimización de infraestructura de red</li>
+            <li>Implementación de soluciones en la nube</li>
+        </ul>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <p>Nuestro equipo de consultores de TI cuenta con años de experiencia en la industria. Hemos trabajado con clientes en diversos sectores, brindando soluciones tecnológicas eficientes y efectivas.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en nuestros servicios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte con tus desafíos tecnológicos.</p>
+        <p>Correo electrónico: consultor@tiempresa.com</p>
+        <p>Teléfono: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Consultor de TI</p>
+    </footer>
+</body>
+</html>
