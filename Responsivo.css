@@ -1,0 +1,56 @@
+/* Estilos responsivos para tablets y teléfonos */
+@media screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+
+/* Estilos responsivos para teléfonos */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+}
