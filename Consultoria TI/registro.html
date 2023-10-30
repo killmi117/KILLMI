@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+			<link rel="stylesheet" href="css/disenoregistro1.css"/>
+			<title>Registrarse</title>
+		<script>
+			
+	// Función para obtener parámetros de la URL
+	function obtenerParametro(nombre) {
+		const url = new URL(window.location.href);
+		return url.searchParams.get(nombre);
+	}
+
+	// Verificar si hay un mensaje en la URL
+	const mensaje = obtenerParametro('mensaje');
+	if (mensaje) {
+		// Mostrar el mensaje de error
+		alert(decodeURIComponent(mensaje));
+	}
+		</script>
+	</head>
+	
+	<body>
+	<form action="Consulta.php" method="POST">
+			<div class="reg">
+				<h1>Registrarte</h1>
+					<p>Es rápido y fácil.</p>
+				
+							<input name="txtus"class="texto" type="text" placeholder="Usuario" required />
+							<input name ="txtpas"class="texto3" autocomplete= "off" type="password" placeholder="Contraseña"  required/></br></br>
+			
+							<input class="registro" type="submit" value="Registrarse"  />
+							<a href="index.html"><input type="button" value="Regresar" class="cerrar"/></a>
+					
+		
+	</form>
+	</body>
+</html>

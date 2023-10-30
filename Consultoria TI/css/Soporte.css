@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+/* Estilos para la sección "Tipos de Errores" */
+#tipos-de-errores {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+}
+
+#tipos-de-errores h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+#tipos-de-errores p {
+    font-size: 16px;
+    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+}
+
+#tipos-de-errores ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#tipos-de-errores li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica el texto de los elementos de la lista */
+}
+
+/* Estilos para la sección "Soluciones y Soporte" (los mismos estilos con algunos ajustes) */
+#soluciones-y-soporte {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+}
+
+#soluciones-y-soporte h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+#soluciones-y-soporte p {
+    font-size: 16px;
+    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+}
+
+#soluciones-y-soporte ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#soluciones-y-soporte li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica el texto de los elementos de la lista */
+}
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+.iniciar
+{
+	font-family:arial;
+	font-size:18px;
+	position:relative;
+	color:white;
+	width:130px;
+	height:35px;
+	border: 2px solid grey;
+	background-color:black;
+	outline: none;
+	border-radius:10px;
+	text-align:center;
+	top: 10%;
+	left: 15%;
+	cursor:pointer;
+}
+.iniciar:hover
+{
+	color:orange;
+}
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+}
+
+nav a:hover {
+    color: #ff6347; /* Cambia el color al pasar el mouse sobre el enlace */
+}
+
+/* Agrega una animación de desplazamiento suave a los enlaces */
+nav a {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    color: #ff6347;
+    transform: scale(1.1); /* Hace que el enlace se agrande ligeramente al pasar el mouse sobre él */
+}
+/* Estilos para la sección "Contacto" */
+#contacto {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+}
+
+#contacto h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+#contacto p {
+    font-size: 16px;
+    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+    margin-bottom: 10px;
+}
+
+/* Estilo específico para el texto de derechos de autor */
+#contacto p:last-child {
+    font-size: 14px;
+    text-align: center; /* Centra el texto de derechos de autor horizontalmente */
+    margin-top: 20px; /* Agrega margen superior para separar del contenido anterior */
+}
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
