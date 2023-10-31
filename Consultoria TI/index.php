@@ -1,13 +1,22 @@
-<?php
-session_start();
 
-?>
 <html>
 
 <head>	
 	<meta charset="UTF-8" />
 			<link rel="stylesheet" href="css/estilo.css"/>
 	<script>
+		    <?php
+    session_start();
+    if (isset($_SESSION['mensaje_error'])) {
+    ?>
+        // Mostrar el mensaje de error como una ventana emergente
+        alert("<?php echo $_SESSION['mensaje_error']; ?>");
+
+        // Limpia el mensaje después de mostrarlo
+        <?php
+        unset($_SESSION['mensaje_error']);
+    }
+    ?>
 			function crear()
 		{
 
