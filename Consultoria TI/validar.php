@@ -15,8 +15,8 @@ if(!$r)
 else if ($cont <= 0)
 {
 			 
-	$mensaje_error = "Usuario y/o contraseña no almacenados. Por favor, registrese.";
-	header('Location: index.html?mensaje=' . urlencode($mensaje_error));
+    $_SESSION['$mensaje_error'] = "Usuario y/o contraseña no almacenados. Por favor, registrese.";
+	header('Location: index.php?mensaje=' . urlencode($mensaje_error));
 	
 }
 else
@@ -34,8 +34,8 @@ else
             header('Location: Consultor de TI.html');
         }
     } else {
-        $mensaje_error = "Usuario y/o contraseña incorrectos. Por favor, inténtalo de nuevo.";
-        header('Location: index.html?mensaje=' . urlencode($mensaje_error));
+        $_SESSION['$mensaje_error'] = "Usuario y/o contraseña incorrectos. Por favor, inténtalo de nuevo.";
+        header('Location: index.php?mensaje=' . urlencode($mensaje_error));
     }
 }
 

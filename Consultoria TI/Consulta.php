@@ -12,7 +12,7 @@ if ($var === 'Admin' && $var1 === 'Admin') {
     $sql = "INSERT INTO usuarios (Nombre, contraseña) VALUES ('$var', '$var1')";
     if ($cn->query($sql) === TRUE) {
         // Registro exitoso, redirige a la página de éxito
-        header('Location: index.html');
+        header('Location: index.php');
     } else {
         die("Error al registrar: " . $cn->error);
     }
