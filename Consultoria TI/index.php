@@ -71,6 +71,10 @@
 	</script>
 	</head>
 			<body id = "pagina">
+            <audio autoplay controls style="display:none;">
+        <source src="music/Inicio.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
 			<div id="logo">
 				<h1 class="titulo" >TI Consultor</h1>
 			<p class= "texto_arial">"Transformamos desafíos tecnológicos en soluciones estratégicas: Tu socio de confianza en Consultoría de TI."</p>

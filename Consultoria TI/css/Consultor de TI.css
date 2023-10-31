@@ -5,14 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/* Estilos del encabezado */
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
 .iniciar
 {
 	font-family:arial;
@@ -26,14 +18,23 @@ header {
 	outline: none;
 	border-radius:10px;
 	text-align:center;
-	top: 10%;
-	left: 15%;
+	top: 4%;
+	left: 7%;
 	cursor:pointer;
 }
 .iniciar:hover
 {
 	color:orange;
 }
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
 h1 {
     margin: 0;
 }

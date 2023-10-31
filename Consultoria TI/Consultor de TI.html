@@ -6,20 +6,28 @@
     <link rel="stylesheet" type="text/css" href="css/Consultor de TI.css">
     <link rel="stylesheet" type="text/css" href="css/Responsivo.css">
     <script>
-
         function cerrar()
-       {
-   
-           window.location.href ="index.php";
+        {
+    
+            window.location.href ="index.php";
+        
+        }
        
-       }
-      </script>
-      
+    </script>
 </head>
 <body>
+    <audio autoplay controls style="display:none;">
+        <source src="music/Triste.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
     <header>
+        <img src="img/ima1.jpeg" width="120" height="90" alt="Descripción de la imagen" style="float: left;">
+
+
         <h1>Consultoría de Tecnología de la Información UTCJ</h1>
         <p>Tu socio de confianza para soluciones de TI UTCJ</p>
+
+
     </header>
     <nav>
         <a href="#servicios">Servicios</a>
@@ -27,6 +35,8 @@
         <a href="#clientes">Clientes</a>
         <a href="#contacto">Contacto</a>
         <a href="Soporte.html">Soporte</a>
+        <a href="avisos.html">Avisos de privacidad</a>
+        <a href="Integrantes.html">Integrantes</a>
         <input type='button'  class='iniciar' id="boton" onclick= "cerrar()" value="Cerrar sesion" />
 
     </nav>
@@ -63,6 +73,8 @@
     </section>
     <footer>
         <p>Derechos de autor &copy; 2023 Consultor de TI UTCJ. Todos los derechos reservados.</p>
+        <img src="ima1.jpeg" width="80" height="80" alt="Descripción de la imagen">
+
     </footer>
 </body>
 </html>
