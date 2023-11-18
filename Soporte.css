@@ -41,25 +41,30 @@ h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 /* Estilos para la sección "Tipos de Errores" */
 #tipos-de-errores {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
-    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+    margin: 20px auto;
+    /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px;
+    /* Limita el ancho máximo del contenido para una mejor legibilidad */
 }
 
 #tipos-de-errores h2 {
     color: #007BFF;
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center; /* Centra el título horizontalmente */
+    text-align: center;
+    /* Centra el título horizontalmente */
 }
 
 #tipos-de-errores p {
     font-size: 16px;
-    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+    text-align: justify;
+    /* Justifica el texto para un aspecto más limpio */
 }
 
 #tipos-de-errores ul {
@@ -71,7 +76,8 @@ h2 {
 #tipos-de-errores li {
     font-size: 16px;
     margin-bottom: 10px;
-    text-align: justify; /* Justifica el texto de los elementos de la lista */
+    text-align: justify;
+    /* Justifica el texto de los elementos de la lista */
 }
 
 /* Estilos para la sección "Soluciones y Soporte" (los mismos estilos con algunos ajustes) */
@@ -79,20 +85,24 @@ h2 {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
-    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+    margin: 20px auto;
+    /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px;
+    /* Limita el ancho máximo del contenido para una mejor legibilidad */
 }
 
 #soluciones-y-soporte h2 {
     color: #007BFF;
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center; /* Centra el título horizontalmente */
+    text-align: center;
+    /* Centra el título horizontalmente */
 }
 
 #soluciones-y-soporte p {
     font-size: 16px;
-    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+    text-align: justify;
+    /* Justifica el texto para un aspecto más limpio */
 }
 
 #soluciones-y-soporte ul {
@@ -104,8 +114,10 @@ h2 {
 #soluciones-y-soporte li {
     font-size: 16px;
     margin-bottom: 10px;
-    text-align: justify; /* Justifica el texto de los elementos de la lista */
+    text-align: justify;
+    /* Justifica el texto de los elementos de la lista */
 }
+
 /* Estilos para la barra de navegación */
 nav ul {
     list-style-type: none;
@@ -124,11 +136,13 @@ nav a {
     color: #007BFF;
     font-weight: bold;
     font-size: 16px;
-    transition: color 0.3s ease; /* Agrega una transición suave al color del texto */
+    transition: color 0.3s ease;
+    /* Agrega una transición suave al color del texto */
 }
 
 nav a:hover {
-    color: #ff6347; /* Cambia el color al pasar el mouse sobre el enlace */
+    color: #ff6347;
+    /* Cambia el color al pasar el mouse sobre el enlace */
 }
 
 /* Agrega una animación de desplazamiento suave a los enlaces */
@@ -138,36 +152,45 @@ nav a {
 
 nav a:hover {
     color: #ff6347;
-    transform: scale(1.1); /* Hace que el enlace se agrande ligeramente al pasar el mouse sobre él */
+    transform: scale(1.1);
+    /* Hace que el enlace se agrande ligeramente al pasar el mouse sobre él */
 }
+
 /* Estilos para la sección "Contacto" */
 #contacto {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px auto; /* Centra el contenido horizontalmente y agrega margen superior e inferior */
-    max-width: 800px; /* Limita el ancho máximo del contenido para una mejor legibilidad */
+    margin: 20px auto;
+    /* Centra el contenido horizontalmente y agrega margen superior e inferior */
+    max-width: 800px;
+    /* Limita el ancho máximo del contenido para una mejor legibilidad */
 }
 
 #contacto h2 {
     color: #007BFF;
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center; /* Centra el título horizontalmente */
+    text-align: center;
+    /* Centra el título horizontalmente */
 }
 
 #contacto p {
     font-size: 16px;
-    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+    text-align: justify;
+    /* Justifica el texto para un aspecto más limpio */
     margin-bottom: 10px;
 }
 
 /* Estilo específico para el texto de derechos de autor */
 #contacto p:last-child {
     font-size: 14px;
-    text-align: center; /* Centra el texto de derechos de autor horizontalmente */
-    margin-top: 20px; /* Agrega margen superior para separar del contenido anterior */
+    text-align: center;
+    /* Centra el texto de derechos de autor horizontalmente */
+    margin-top: 20px;
+    /* Agrega margen superior para separar del contenido anterior */
 }
+
 /* Estilos del pie de página */
 footer {
     background-color: #333;
