@@ -1,0 +1,109 @@
+body
+{
+	background-color: 303032;
+}
+
+.letrablanca
+{
+	position: fixed;	
+	color: white;
+	font-family: Copperplate Gothic Bold;
+	top:15px;
+	left:1100px;
+}
+.letrablanca1
+{
+	position: relative;	
+	color: white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	top:-52px;
+	left: 300px;
+	text-align:justify;
+	width:1000px;
+	
+}
+.texto
+{
+font-size:45px;
+color: white;
+font-family: arial bold ;
+text-align:center;
+}
+#imagencentro
+{
+position:relative;
+top:20px;
+height:300px;
+display:block;
+margin:auto;
+}
+.imagenes
+{
+	position:relative;
+	top:-50px;
+	 height: 250px;
+	 display:block;
+	 border: 2px solid #fff;
+	 margin: auto;
+	 border-radius:50%;
+}
+.imagenfinal
+{
+	position:relative;
+    top:180px;
+    height: 150px;
+    border-radius: 50%;
+    border:2px solid #fff;
+    display:block;
+	margin:auto;
+}
+.final
+{
+position:relative;
+top:180px;
+font-size: 25px;
+color: white;
+font-family: Harlow Solid Italic ;
+text-align:center;
+}
+.titulos
+{
+	position:fixed;
+font-size:25px;
+top:-5px;
+color: white;
+font-family: arial bold ;
+left:4px;
+text-align:left;
+
+}
+
+#menu
+{
+	position:fixed;
+	width:1605px;
+	height:60px;
+	top:0px;
+	background-color:292929;
+	right:-20px;
+}
+.titulos:hover
+{
+	color:c69600
+}
+.letrablanca:hover
+{
+color: red;
+}
+.letrablanca1:hover
+{
+color: 0072c6;
+}
+.final:hover
+{
+	color: d42ef5;
+}
+.texto:hover
+{
+	color:8d73f4;

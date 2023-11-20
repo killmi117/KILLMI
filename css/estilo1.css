@@ -1,0 +1,73 @@
+body
+{
+	background-color:1b1919;
+}
+#login 
+{
+position:relative; 
+left: 200px;
+width:650;
+height:380;
+background-color:004f99;
+border-radius: 10%;
+top:60px;
+}
+
+
+#nombre1
+{
+	position:relative;
+	top: 30px;
+	
+	left:40px;
+}
+
+#letras
+{
+	position:relative;
+	top:35px;
+	left:40px;
+}
+
+#correo1
+{
+	position:relative;
+	top:40px;
+	left:40px;
+}
+
+#pass1
+{
+	top:60px;
+	position:relative;
+	left: 40px;
+	
+	
+}
+#boton
+{
+	bottom:-150px;
+	position:relative;
+	left: 80px;
+	width:250px;	
+	color:white;
+	font-family:arial bold;
+	font-size:15px;
+	background-color:ff0000;
+}
+.titulos
+{
+font-size:50px;
+color: white;
+font-family: arial ;
+text-align:center;
+
+}
+#instruccion
+{
+font-size:20px;
+color: white;
+font-family: arial bold ;
+text-align:center;
+
+}

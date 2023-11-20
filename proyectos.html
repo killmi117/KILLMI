@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inserción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #888;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="date"],
+        textarea {
+            width: 95%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            height: 100px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 17%;
+            margin-top: 5%;
+        }
+        input[type="submit"]:hover {
+            background-color: orange;
+        }
+        input[type="button"] {
+            background-color: #ef476f;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 18%;
+        }
+        input[type="button"]:hover {
+            background-color: orange;
+        }
+    </style>
+    <script>
+
+        function cerrar()
+       {
+   
+           window.location.href ="inicioA.html";
+       
+       }
+      </script>
+</head>
+<body>
+    <h1>Formulario de Inserción de Proyecto de Consultoría de TI</h1>
+    <form action="insercion.php" method="POST">
+        <label for="nombre">Nombre del Proyecto:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea name="descripcion" rows="4" required></textarea><br>
+
+        <label for="cliente">Cliente:</label>
+        <input type="text" name="cliente" required><br>
+
+        <label for="fecha_inicio">Fecha de Inicio:</label>
+        <input type="date" name="fecha_inicio" required><br>
+
+        <label for="fecha_fin">Fecha de Finalización:</label>
+        <input type="date" name="fecha_fin" required><br>
+
+        <input type="submit" value="Agregar Proyecto">
+        <input type='button'  class='iniciar' id="boton" onclick= "cerrar()" value="Regresar" />
+
+    </form>
+</body>
+</html>
