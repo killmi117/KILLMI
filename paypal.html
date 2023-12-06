@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Consultor de TI.css">
+    <link rel="stylesheet" type="text/css" href="css/Responsivo.css">
+    <title>Formulario de Pago</title>
+    <script>
+        function cerrar()
+        {
+    
+            window.location.href ="index.php";
+        
+        }
+       
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 65px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            margin-top: 100px; /* Ajusta el margen superior para evitar solapamiento con el contenido debajo del menú */
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="image"] {
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pago</h1>
+    </header>
+
+    <nav>
+        <a href="Consultor de TI.html">Inicio</a>
+        <a href="Soporte.html">Soporte</a>
+        <a href="paypal.html">Pago</a>
+        <a href="avisos.html">Avisos de privacidad</a>
+        <a href="Integrantes.html">Integrantes</a>
+        <a href="gith.html">FAQ</a>
+        <input type='button'  class='iniciar' id="boton" onclick= "cerrar()" value="Cerrar sesion" />
+
+    </nav>
+
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="4J4KD4ZW9DYT8" />
+        <table>
+            <tr>
+                <td>
+                    <input type="hidden" name="on0" value="Consultoria"/>
+                    Consultoria
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="os0">
+                        <option value="Diseño y creacion de sitio web de 0">
+                            Diseño y creacion de sitio web de 0 80,00 USD
+                        </option>
+                        <option value="Diseño de sitio Web">
+                            Diseño de sitio Web 40,00 USD
+                        </option>
+                        <option value="Gestion de redes ">
+                            Gestion de redes  40,00 USD
+                        </option>
+                        <option value="Gestion de sistemas">
+                            Gestion de sistemas 40,00 USD
+                        </option>
+                        <option value="Gestion de redes y sistemas">
+                            Gestion de redes y sistemas 70,00 USD
+                        </option>
+                        <option value="Configuracion de servidor">
+                            Configuracion de servidor 30,00 USD
+                        </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" title="PayPal es una forma segura y fácil de pagar en línea." alt="Comprar ahora" />
+    </form>
+
+</body>
+
+</html>

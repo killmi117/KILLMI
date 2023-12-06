@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+			<link rel="stylesheet" href="css/disenoregistro1.css"/>
+			<title>Registrarse</title>
+		<script>
+			
+	// Función para obtener parámetros de la URL
+	function obtenerParametro(nombre) {
+		const url = new URL(window.location.href);
+		return url.searchParams.get(nombre);
+	}
+
+	// Verificar si hay un mensaje en la URL
+	const mensaje = obtenerParametro('mensaje');
+	if (mensaje) {
+		// Mostrar el mensaje de error
+		alert(decodeURIComponent(mensaje));
+	}
+		</script>
+		<script>
+			function enviarDatos() {
+				const nombre = document.getElementById('txtus').value;
+				const email = "antnunezovando@hotmail.com"
+	
+				// Construir el objeto con los datos
+				const data = {
+					nombre: nombr,
+					email: email
+				};
+	
+				// Enviar los datos a la API usando fetch
+				fetch('http://localhost/Consultoria%20TI/registro.html', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(data)
+				})
+				.then(response => response.json())
+				.then(data => {
+					console.log('Respuesta de la API:', data);
+					alert('Datos enviados correctamente. Revisa tu correo para confirmación.');
+				})
+				.catch(error => {
+					console.error('Error al enviar los datos a la API:', error);
+					alert('Error al enviar los datos. Consulta la consola para más detalles.');
+				});
+			}
+		</script>
+	</head>
+	
+	<body>
+	<form action="Consulta.php" method="POST">
+			<div class="reg">
+				<h1>Registrarte</h1>
+					<p>Es rápido y fácil.</p>
+				
+							<input name="txtus"class="texto" type="text" placeholder="Usuario" required />
+							<input name ="txtpas"class="texto3" autocomplete= "off" type="password" placeholder="Contraseña"  required/></br></br>
+						
+							<input class="registro"  onclick= "enviarDatos()" type="submit" value="Registrarse"  />
+							<a href="index.php"><input type="button" value="Regresar" class="cerrar"/></a>
+					
+		
+	</form>
+	</body>
+</html>

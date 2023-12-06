@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/Consultor de TI.css">
+    <link rel="stylesheet" type="text/css" href="css/Responsivo.css">
+    <title>Reproductor de Video</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+
+        .video-container {
+            max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .video-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .iframely-responsive {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-bottom: 40px; /* Ajusta el valor para cambiar el tamaño del reproductor */
+            margin-bottom: 50px; /* Espacio entre los videos */
+        }
+
+        .iframely-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .reference-text {
+            font-size: 16px;
+            font-weight: bold;
+            color: #050505;
+            margin-top: 320px; /* Espacio opcional entre el reproductor y otros elementos */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FAQ</h1>
+    </header>
+    <nav>
+        <a href="Consultor de TI.html">Inicio</a>
+        <a href="Soporte.html">Soporte</a>
+        <a href="paypal.html">Pago</a>
+        <a href="avisos.html">Avisos de privacidad</a>
+        <a href="Integrantes.html">Integrantes</a>
+        <a href="gith.html">FAQ</a>
+        <input type='button'  class='iniciar' id="boton" onclick= "cerrar()" value="Cerrar sesion" />
+
+    </nav>
+
+    <div class="video-container">
+        <div class="iframely-embed">
+            <div class="video-title">¿Para qué sirven las consultorias de TI ?</div>
+            <div class="iframely-responsive" style="padding-bottom: 56.4%;">
+                <a href="https://www.facebook.com/HighitMX/videos/571956037499709/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fref%3Dsearch%26v%3D571956037499709%26external_log_id%3D4fae4a51-6f89-4088-b551-8b5a22fad982%26q%3Dconsultoria%2520de%2520ti&key=9de6d29beb5c449a5215cf74a9307153"></a>
+                <p class="reference-text">REFERENCIA: "Highit Service"</p>
+            </div>
+            <div class="video-title">¿Qué ofrecemos?</div>
+            <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+                <iframe src="https://www.youtube.com/embed/iSM_uQWqreQ?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+    <footer>
+        <p>Derechos de autor &copy; 2023 Consultor de TI UTCJ. Todos los derechos reservados.</p>
+        <img src="ima1.jpeg" width="80" height="80" alt="Descripción de la imagen">
+
+    </footer>
+</body>
+</html>

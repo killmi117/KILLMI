@@ -1,0 +1,56 @@
+<html>
+	<head>
+			<link rel="stylesheet" href="css/estilo.css"/>
+	<script>
+	
+	function ValidarForm() {
+        var usuario = document.getElementById("user").value;
+        var contrasena = document.getElementById("pass").value;
+
+        if (usuario== "admin" && contrasena == "admin")
+        {
+            window.alert("Credenciales de ADMIN VALIDAS");
+
+            window.location.href ="inicio.html";
+        }
+        else if (usuario == "Cristian" && contrasena == "cristian123")
+        {
+           window.alert("Credenciales Validadas");
+            window.location.href="inicio.html"
+        }
+        else{
+            window.alert("Credenciales incorrectas");
+            document.getElementById("user").value = "";
+            document.getElementById("pass").value = "";
+        }
+        return false;
+    }
+	
+	</script>
+	</head>
+			<body id = "pagina">
+			<div id="logo">
+			<h1 class="titulo" >TI Consultor</h1>
+			<p class= "texto_arial">"Transformamos desafíos tecnológicos en soluciones estratégicas: Tu socio de confianza en Consultoría de TI."</p>
+				</div>
+			
+				<div id="login">
+		   <form id="LoginF" onsubmit= "return ValidarForm()" method="POST">
+            	<p class="t">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+            <p class="text">Usuario<br><input  type= "text" name="user" id="user" required><br></p>
+				
+			<p class="text">Contraseña<br><input type="password" name="pass" id="pass" required><br></p>
+				
+			<input  type="submit" class="boton" value= "INICIAR SESION" />
+           </form>
+
+	
+			
+	       
+
+				</div>
+			   
+			</body>
+         				
+		</html>
+		

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación de Oficinas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+     .fot
+     {
+        position: relative ;
+        margin-top: 70px;
+     }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/Inicio.css">
+    <link rel="stylesheet" type="text/css" href="css/Responsivo.css">
+    <script type="module" src="mapa.js"></script>
+    <script>
+
+        function cerrar()
+       {
+   
+           window.location.href ="index.php";
+       
+       }
+      </script>
+      
+</head>
+<body>
+     <header>
+        <h1>Ubicación de nuestras oficinas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="inicioA.html">Introducción</a></li>
+            <li><a href="inicioA.html">Rol</a></li>
+            <li><a href="inicioA.html">Gestion de proyectos</a></li>
+            <li><a href="inicioA.html">Seguridad de la informacion</a></li>
+            <li><a href="oficinas.html">Nuestras Oficinas</a></li>
+            <li><a href="proyectos.html">Nuevos Proyectos</a></li>
+            <li><a href="mostrar.php    ">Mostrar Proyectos</a></li>
+            <input type='button'  class='iniciar' id="boton" onclick= "cerrar()" value="Cerrar sesion" />
+            
+        </ul>
+    </nav>
+   
+    <div class="container">
+        <!-- Aquí deberías incluir tu código del mapa -->
+       
+        
+            <div id="Mapa"></div> 
+               <div class="map-container" >
+                   <!--Mapa-->
+                   <center>
+                      
+                       <div id="map"></div>
+                       <script src="mapa.js"></script>
+                       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+                   
+                   
+               </div>
+           
+    </div>
+    <div class="fot">
+<footer>
+        <p>Derechos de autor &copy; 2023 Consultor de TI UTCJ. Todos los derechos reservados.</p>
+        <img src="ima1.jpeg" width="80" height="80" alt="Descripción de la imagen">
+
+    </footer>
+    </div>
+    
+</body>
+</html>

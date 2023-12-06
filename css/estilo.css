@@ -1,0 +1,111 @@
+.titulo
+{
+	font-family: Tw Cen MT Condensed ;
+	font-size: 90px;
+	color: 365ad4;
+	margin-left: 60px;
+}
+
+.texto_arial
+{
+ font-family: arial bold;
+ font-size: 35px;
+ text-align:center;
+ width:550;
+color: white;
+
+
+}
+.iniciar
+{
+	font-family:arial;
+	font-size:20px;
+	position:absolute;
+	color:white;
+	width:150px;
+	height:40px;
+	border: 2px solid grey;
+	background-color:black;
+	outline: none;
+	border-radius:10px;
+	text-align:center;
+	top: 30%;
+	left: 72%;
+	cursor:pointer;
+}
+.iniciar:hover
+{
+	color:orange;
+}
+#login 
+{
+position:relative; 
+left: 850px;
+width:350;
+height:320;
+background-color:333333;
+border-radius: 10%;
+top:-150px;
+}
+.t 
+{
+	margin-top: 30;
+}
+.text
+{	 
+padding-left:60px;
+color:white;
+font-size:25px;
+margin-left: 10px;
+
+
+}
+#user 
+{
+border-radius: 4.5%;
+width:200;
+height:25;
+margin-left: 5px;
+}
+#pass
+{
+border-radius: 4.5%;
+width:200;
+height:25;
+margin-left: 5px;
+}
+#pagina
+{
+	background-color:black;
+}
+#logo
+{
+	position:relative;
+	
+	left: 20px;
+	top:140px;
+}
+.boton
+{
+position:relative;
+width:250;
+height:45;
+background-color:0055d1;
+color:white;
+top:10px;
+font-family:arial;
+font-size:20px;
+left:50px;
+}
+#registro
+{
+position:relative;
+width:250;
+height:45;
+background-color:02a96c;
+color:white;
+top:30px;
+font-family:arial;
+font-size:20px;
+left:50px;
+}
